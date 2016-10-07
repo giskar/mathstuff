@@ -2,7 +2,7 @@ __author__ = 'Troviln'
 import numpy as np
 #seidel
 ITERATION_LIMIT = 100
-
+#https://en.wikipedia.org/wiki/Gauss–Seidel_method
 # initialize the matrix
 A = np.array([[10, -1, -2, 5],[4, 28, 7, 9],[6, 5, -23, 4],[1, 4, 5, -15]])
 # initialize the RHS vector
